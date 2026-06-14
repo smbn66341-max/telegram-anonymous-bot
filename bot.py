@@ -142,7 +142,6 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         f"اسم نمایشی: {nickname}\n"
         f"یوزرنیم: @{username if username else 'ندارد'}\n"
         f"ID: {user_id}"
-)
     )
 
     keyboard = InlineKeyboardMarkup([
