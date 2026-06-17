@@ -294,7 +294,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await context.bot.send_document(
                 chat_id=admin,
                 document=document,
-                caption=f"📎 فایل جدید\n\n{user_caption}",
+                caption=f"{user_caption}",
                 reply_markup=keyboard
             )
 
