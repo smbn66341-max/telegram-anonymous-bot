@@ -114,7 +114,7 @@ pending_action = {}  # admin_id -> {"type": ..., "user_id": ...}
 
 # ───────── START ─────────
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("ناک ناک \n بمگوت میره به باباش بگه..")
+    await update.message.reply_text("ناک ناک..")
 
 
 # ───────── USER MESSAGE ─────────
@@ -303,7 +303,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
                 text=caption_info
             )
 
-    await update.message.reply_text("ممنون از پیامت💕\n به زودی به دستش میرسه..🧸")
+    await update.message.reply_text(" بمگوت میره به باباش بگه..\n به زودی به دستش میرسه🧸")
 
 
 # ───────── BUTTON HANDLER ─────────
